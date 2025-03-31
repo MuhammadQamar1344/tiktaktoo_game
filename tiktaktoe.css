@@ -1,0 +1,32 @@
+#main{
+position:fixed;
+height: 400px;
+width:400px;
+transform: translate(-50%,-50%);
+left: 50%;
+right: 50%;
+top: 50%;
+bottom: 50%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 4px;
+row-gap: 4px;
+}
+
+#main>div{
+    border: 1px solid rgb(26, 39, 160);
+    background-color: rgb(10, 0, 0);
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+#ten{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+body{
+    background-color: blueviolet;
+}
